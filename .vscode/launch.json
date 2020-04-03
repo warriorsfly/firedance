@@ -1,0 +1,341 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'firedance'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=firedance",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "firedance",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'firedance'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=firedance",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "firedance",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'panic'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=panic",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "panic",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'panic'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=panic",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "panic",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'device'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=device",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "device",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'device'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=device",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "device",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'itm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=itm",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "itm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'itm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=itm",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "itm",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'crash'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=crash",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "crash",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'crash'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=crash",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "crash",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'hello'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=hello",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "hello",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'hello'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=hello",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "hello",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'exception'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=exception",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "exception",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'exception'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=exception",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "exception",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'allocator'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=allocator",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "allocator",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'allocator'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=allocator",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "allocator",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'test_on_host'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=test_on_host",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "test_on_host",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'test_on_host'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=test_on_host",
+                    "--package=firedance"
+                ],
+                "filter": {
+                    "name": "test_on_host",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
